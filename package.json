@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-insure-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build -i ./src/style.css -o ./public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarijaPaunovic/tailwind-insure-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarijaPaunovic/tailwind-insure-landing-page/issues"
+  },
+  "homepage": "https://github.com/MarijaPaunovic/tailwind-insure-landing-page#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.3"
+  }
+}
