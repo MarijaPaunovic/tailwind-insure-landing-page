@@ -11,11 +11,164 @@
     <title>Frontend Mentor | Insure landing page</title>
 </head>
 
-<body>
-    <h1 class="font-title">Hello</h1>
-    <p class="font-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, accusantium. Sunt, sit perferendis ab aperiam necessitatibus praesentium adipisci delectus odio nostrum sint similique consequuntur, asperiores unde dolore reprehenderit. Cum, sunt?
-    Accusantium quam mollitia libero? Optio porro, sequi officia sint maiores vitae nostrum ea. Molestias, sapiente? Veniam, voluptates ab id facere sequi alias voluptatibus molestiae magni possimus nemo assumenda, suscipit odit.
-    </p>
+<body class="font-body">
+    <header class="min-h-20 py-6 relative">
+        <div class="container">
+            <div class="flex items-center justify-between">
+                <div>
+                    <a href="#"><img src="./images/logo.svg" alt="logo" /></a>
+                </div>
+
+                <button data-btn-open class="">
+                    <img src="./images/icon-hamburger.svg" alt="icon-hamburger" />
+                </button>
+                <button data-btn-close class="hidden">
+                    <img src="./images/icon-close.svg" alt="icon-close" />
+                </button>
+            </div>
+        </div>
+
+        <nav data-menu class="hidden">
+            <ul class="space-y-2 tracking-widest z-10">
+                <li><a href="#"
+                        class="block w-full py-5 transition ease-in-out delay-300 hover:outline hover:outline-2 hover:outline-white">How
+                        we
+                        work</a></li>
+                <li><a href="#"
+                        class="block w-full py-5 transition ease-in-out delay-300 hover:outline hover:outline-2 hover:outline-white">Blog</a>
+                </li>
+                <li><a href="#"
+                        class="block w-full py-5 transition ease-in-out delay-300 hover:outline hover:outline-2 hover:outline-white">Account</a>
+                </li>
+                <li><a href="#"
+                        class="block w-full py-5 transition ease-in-out delay-300 hover:outline hover:outline-2 hover:outline-white">View
+                        plans</a></li>
+            </ul>
+            <div class="mobile-pattern"></div>
+        </nav>
+
+    </header>
+
+    <main>
+        <section>
+            <div class="container">
+                <div class="md:hidden">
+                    <img src="./images/image-intro-mobile.jpg" alt="intro-mobile" />
+                </div>
+                <div>
+                    <h1 class="font-title">Humanizing your insurance.</h1>
+                    <p>Get your life insurance coverage easier and faster. We blend our expertise and technology to help
+                        you find the plan that's right for you. Ensure you and your loved ones are protected.</p>
+                    <a href="#">View plans</a>
+                </div>
+                <div class="hidden md:inline-block">
+                    <img src="./images/image-intro-desktop.jpg" alt="intro-desktop" />
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2>We're different</h2>
+            <div class="flex flex-col">
+                <div class="card">
+                    <img src="./images/icon-snappy-process.svg" alt="snappy" />
+                    <h3 class="font-title">Snappy Process</h3>
+                    <p>Our application process can be completed in minutes, not hours. Don't get stuck filling in
+                        tedious forms.</p>
+                </div>
+                <div class="card">
+                    <img src="./images/icon-affordable-prices.svg" alt="prices" />
+                    <h3 class="font-title">Affordable Prices</h3>
+                    <p>We don't want you worrying about high monthly costs. Our prices may be low, but we still offer
+                        the best coverage possible.</p>
+                </div>
+                <div class="card">
+                    <img src="./images/icon-people-first.svg" alt="people" />
+                    <h3 class="font-title">People First</h3>
+                    <p>Our plans aren't full of conditions and clauses to prevent payouts. We make sure you're covered
+                        when you need it.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container bg-darkViolet text-white flex flex-col">
+            <h2 class="font-title">Find out more about how we work</h2>
+            <a href="#">How we work</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+
+            <div>
+                <img src="./images/logo.svg" alt="logo" />
+                <ul class="flex">
+                    <li>
+                        <a href="#">
+                            <img src="./images/icon-facebook.svg" alt="facebook" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/icon-twitter.svg" alt="twitter" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/icon-pinterest.svg" alt="pinterest" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/icon-instagram.svg" alt="instagram" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="flex flex-col">
+                <div>
+                    <h4>Our company</h4>
+                    <ul>
+                        <li><a href="#">How we work</a></li>
+                        <li><a href="#">Why Insure?</a></li>
+                        <li><a href="#">View plans</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Help me</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Terms of use</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Cookies</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="#">Sales</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Live chat</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Others</h4>
+                    <ul>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Licenses</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
 </body>
 
 </html>

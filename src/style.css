@@ -3,3 +3,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.show {
+    @apply 
+    flex
+    flex-col
+    text-center
+    absolute
+    top-20
+    z-50
+    w-full 
+    p-6
+    h-[587px] 
+    bg-veryDarkViolet 
+    text-white
+    uppercase
+    text-xl
+    transition 
+    ease-in-out 
+    delay-150
+}
+.mobile-pattern {
+    @apply
+    after:bg-menu-pattern
+    after:bg-no-repeat
+    after:bg-contain
+    after:bg-left-bottom
+    after:absolute
+    after:left-0
+    after:top-0
+    after:w-full
+    after:h-full
+    after:z-0
+}
