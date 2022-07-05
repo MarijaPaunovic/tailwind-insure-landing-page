@@ -19,7 +19,7 @@
                     <a href="#"><img src="./images/logo.svg" alt="logo" /></a>
                 </div>
 
-                <button data-btn-open class="">
+                <button data-btn-open>
                     <img src="./images/icon-hamburger.svg" alt="icon-hamburger" />
                 </button>
                 <button data-btn-close class="hidden">
@@ -30,40 +30,37 @@
 
         <nav data-menu class="hidden">
             <ul class="space-y-2 tracking-widest z-10">
-                <li><a href="#"
-                        class="block w-full py-5 transition ease-in-out delay-300 hover:outline hover:outline-2 hover:outline-white">How
-                        we
-                        work</a></li>
-                <li><a href="#"
-                        class="block w-full py-5 transition ease-in-out delay-300 hover:outline hover:outline-2 hover:outline-white">Blog</a>
-                </li>
-                <li><a href="#"
-                        class="block w-full py-5 transition ease-in-out delay-300 hover:outline hover:outline-2 hover:outline-white">Account</a>
-                </li>
-                <li><a href="#"
-                        class="block w-full py-5 transition ease-in-out delay-300 hover:outline hover:outline-2 hover:outline-white">View
-                        plans</a></li>
+                <li><a href="#" class="btn btn__menu">How we work</a></li>
+                <li><a href="#" class="btn btn__menu">Blog</a></li>
+                <li><a href="#" class="btn btn__menu">Account</a></li>
+                <li><a href="#" class="btn btn__menu btn--active hover:text-veryDarkViolet w-full">View plans</a></li>
             </ul>
-            <div class="mobile-pattern"></div>
+            <div class="pattern menu-pattern"></div>
         </nav>
 
     </header>
 
-    <main>
-        <section>
-            <div class="container">
-                <div class="md:hidden">
-                    <img src="./images/image-intro-mobile.jpg" alt="intro-mobile" />
+    <main class="overflow-hidden">
+        <section class="bg-darkViolet text-white">
+            <div class="md:hidden">
+                <img class="w-full" src="./images/image-intro-mobile.jpg" alt="intro-mobile" />
+            </div>
+            <div class="relative">
+                <div class="pattern left-mobile-pattern"></div>
+                <div class="container py-20">
+                    <div class="flex flex-col items-center text-center">
+                        <h1 class="font-title text-[44px] leading-[3rem] z-10">Humanizing your insurance.</h1>
+                        <p class="mt-5 text-base leading-6 tracking-wider">Get your life insurance coverage easier and
+                            faster.
+                            We blend our expertise and technology to help
+                            you find the plan that's right for you. Ensure you and your loved ones are protected.</p>
+                        <a href="#" class="btn btn--active mt-9 text-sm tracking-widest z-10">View plans</a>
+                    </div>
+                    <div class="hidden md:inline-block">
+                        <img src="./images/image-intro-desktop.jpg" alt="intro-desktop" />
+                    </div>
                 </div>
-                <div>
-                    <h1 class="font-title">Humanizing your insurance.</h1>
-                    <p>Get your life insurance coverage easier and faster. We blend our expertise and technology to help
-                        you find the plan that's right for you. Ensure you and your loved ones are protected.</p>
-                    <a href="#">View plans</a>
-                </div>
-                <div class="hidden md:inline-block">
-                    <img src="./images/image-intro-desktop.jpg" alt="intro-desktop" />
-                </div>
+                <div class="pattern right-mobile-pattern"></div>
             </div>
         </section>
 
@@ -91,9 +88,9 @@
             </div>
         </section>
 
-        <section class="container bg-darkViolet text-white flex flex-col">
+        <section class="container bg-darkViolet text-white flex flex-col items-center text-center">
             <h2 class="font-title">Find out more about how we work</h2>
-            <a href="#">How we work</a>
+            <a href="#" class="btn btn--active mt-9 text-sm tracking-widest">How we work</a>
         </section>
     </main>
 

@@ -23,16 +23,61 @@
     ease-in-out 
     delay-150
 }
-.mobile-pattern {
+/* PATTERNS */
+.pattern {
     @apply
-    after:bg-menu-pattern
     after:bg-no-repeat
     after:bg-contain
     after:bg-left-bottom
     after:absolute
+    after:z-0
+}
+.menu-pattern {
+    @apply
+    after:bg-menu-pattern
     after:left-0
     after:top-0
     after:w-full
     after:h-full
-    after:z-0
+}
+.left-mobile-pattern {
+    @apply
+    after:bg-intro-left-mobile-pattern
+    after:w-full
+    after:h-[35%]
+    after:left-0
+    after:top-0
+}
+.right-mobile-pattern {
+    @apply
+    after:bg-intro-right-mobile-pattern
+    after:right-[-255px]
+    after:bottom-[-170px]
+    after:w-full
+    after:h-[65%]
+}
+/* BUTTONS */
+.btn {
+    @apply
+    uppercase
+    block
+    py-3
+    px-6
+    transition 
+    ease-in-out
+}
+.btn__menu {
+    @apply
+    w-full
+    py-5
+    hover:font-bold
+}
+.btn--active {
+    @apply
+    outline 
+    outline-2
+    outline-white
+    hover:font-medium
+    hover:bg-white
+    hover:text-darkViolet
 }

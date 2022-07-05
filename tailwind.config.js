@@ -31,6 +31,8 @@ module.exports = {
       },
       backgroundImage: {
         'menu-pattern': "url('./images/bg-pattern-mobile-nav.svg')",
+        'intro-left-mobile-pattern': "url('./images/bg-pattern-intro-left-mobile.svg')",
+        'intro-right-mobile-pattern': "url('./images/bg-pattern-intro-right-mobile.svg')",
       }
     },
   },
