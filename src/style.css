@@ -51,10 +51,26 @@
 .right-mobile-pattern {
     @apply
     after:bg-intro-right-mobile-pattern
-    after:right-[-255px]
-    after:bottom-[-170px]
-    after:w-full
-    after:h-[65%]
+    after:right-0
+    after:bottom-[-180px]
+    after:w-[125px]
+    after:h-[330px]
+}
+.how-we-work-pattern {
+    @apply
+    after:bg-how-we-work-mobile-pattern
+    after:w-[175px]
+    after:h-[315px]
+    after:right-0
+    after:top-0
+    
+}
+/* LINES */
+.line-top {
+    @apply
+    w-[150px]
+    h-[1px]
+    mb-10
 }
 /* BUTTONS */
 .btn {

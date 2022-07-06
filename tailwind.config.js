@@ -33,6 +33,7 @@ module.exports = {
         'menu-pattern': "url('./images/bg-pattern-mobile-nav.svg')",
         'intro-left-mobile-pattern': "url('./images/bg-pattern-intro-left-mobile.svg')",
         'intro-right-mobile-pattern': "url('./images/bg-pattern-intro-right-mobile.svg')",
+        'how-we-work-mobile-pattern': "url('./images/bg-pattern-how-we-work-mobile.svg')",
       }
     },
   },
