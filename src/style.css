@@ -65,6 +65,14 @@
     after:top-0
     
 }
+.footer-mobile-pattern {
+    @apply
+    after:bg-footer-mobile-pattern
+    after:w-full
+    after:h-[175px]
+    after:left-0
+    after:top-0
+}
 /* LINES */
 .line-top {
     @apply

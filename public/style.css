@@ -622,6 +622,11 @@ video {
   margin-right: auto;
 }
 
+.my-10{
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .mt-5{
   margin-top: 1.25rem;
 }
@@ -638,6 +643,14 @@ video {
   margin-top: 2.5rem;
 }
 
+.mt-7{
+  margin-top: 1.75rem;
+}
+
+.mb-10{
+  margin-bottom: 2.5rem;
+}
+
 .flex{
   display: flex;
 }
@@ -650,16 +663,32 @@ video {
   display: none;
 }
 
+.h-1{
+  height: 0.25rem;
+}
+
 .w-full{
   width: 100%;
+}
+
+.list-none{
+  list-style-type: none;
 }
 
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
+.flex-row{
+  flex-direction: row;
+}
+
 .flex-col{
   flex-direction: column;
+}
+
+.place-items-center{
+  place-items: center;
 }
 
 .items-center{
@@ -674,10 +703,20 @@ video {
   gap: 60px;
 }
 
+.gap-10{
+  gap: 2.5rem;
+}
+
 .space-y-2 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+
+.space-x-4 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .overflow-hidden{
@@ -697,6 +736,11 @@ video {
 .bg-darkGrayishViolet{
   --tw-bg-opacity: 1;
   background-color: hsl(273 4% 51% / var(--tw-bg-opacity));
+}
+
+.bg-veryLightGray{
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 98% / var(--tw-bg-opacity));
 }
 
 .py-6{
@@ -763,6 +807,14 @@ video {
   font-size: 2.35rem;
 }
 
+.font-bold{
+  font-weight: 700;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
 .leading-\[3rem\]{
   line-height: 3rem;
 }
@@ -773,6 +825,10 @@ video {
 
 .leading-8{
   line-height: 2rem;
+}
+
+.leading-10{
+  line-height: 2.5rem;
 }
 
 .tracking-widest{
@@ -869,6 +925,15 @@ video {
   background-image: url('./images/bg-pattern-how-we-work-mobile.svg');
 }
 
+.footer-mobile-pattern::after{
+  left: 0px;
+  top: 0px;
+  height: 175px;
+  width: 100%;
+  content: var(--tw-content);
+  background-image: url('./images/bg-pattern-footer-mobile.svg');
+}
+
 /* LINES */
 
 .line-top{
@@ -917,9 +982,18 @@ video {
   color: hsl(256 26% 20% / var(--tw-text-opacity));
 }
 
+.hover\:fill-black:hover{
+  fill: #000;
+}
+
 .hover\:text-veryDarkViolet:hover{
   --tw-text-opacity: 1;
   color: hsl(270 9% 17% / var(--tw-text-opacity));
+}
+
+.hover\:underline:hover{
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 
 @media (min-width: 768px){
