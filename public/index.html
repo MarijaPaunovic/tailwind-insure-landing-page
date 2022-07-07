@@ -13,7 +13,7 @@
 
 <body class="font-body">
     <header class="min-h-20 py-6 relative">
-        <div class="container">
+        <div class="container sm:max-w-3xl">
             <div class="flex items-center justify-between">
                 <div>
                     <a href="#"><img src="./images/logo.svg" alt="logo" /></a>
@@ -47,7 +47,7 @@
             </div>
             <div class="relative">
                 <div class="pattern left-mobile-pattern"></div>
-                <div class="container py-20">
+                <div class="container py-20 sm:max-w-3xl">
                     <div class="flex flex-col items-center text-center">
                         <span class="line-top bg-white hidden"></span>
                         <h1 class="font-title text-[2.75rem] leading-[3rem] z-10">Humanizing your insurance.</h1>
@@ -93,8 +93,9 @@
             </div>
         </section>
 
-        <section class="container py-[140px]">
-            <div class="bg-darkViolet text-white flex flex-col items-center text-center py-[70px] px-5 relative">
+        <section class="container py-[140px] sm:max-w-3xl">
+            <div
+                class="bg-darkViolet text-white flex flex-col items-center text-center py-[70px] px-5 relative sm:py-24">
                 <div class="pattern how-we-work-pattern"></div>
                 <h2 class="font-title text-[2.35rem] leading-[3rem] z-10">Find out more about how we work</h2>
                 <a href="#" class="btn btn--active mt-9 text-sm tracking-widest z-10">How we work</a>
@@ -103,7 +104,8 @@
     </main>
 
     <footer class="bg-veryLightGray relative">
-        <div class="pattern footer-mobile-pattern"></div>
+        <div class="pattern footer-mobile-pattern sm:hidden"></div>
+        <div class="pattern footer-desktop-pattern hidden sm:block"></div>
         <div class="container py-20">
             <div class="flex flex-col items-center justify-between">
                 <img class="my-0 mx-auto z-10" src="./images/logo.svg" alt="logo" />

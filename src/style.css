@@ -73,6 +73,14 @@
     after:left-0
     after:top-0
 }
+.footer-desktop-pattern {
+    @apply
+    after:bg-footer-desktop-pattern
+    after:w-full
+    after:h-[230px]
+    after:left-0
+    after:top-0
+}
 /* LINES */
 .line-top {
     @apply

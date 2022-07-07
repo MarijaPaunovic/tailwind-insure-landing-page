@@ -35,6 +35,7 @@ module.exports = {
         'intro-right-mobile-pattern': "url('./images/bg-pattern-intro-right-mobile.svg')",
         'how-we-work-mobile-pattern': "url('./images/bg-pattern-how-we-work-mobile.svg')",
         'footer-mobile-pattern': "url('./images/bg-pattern-footer-mobile.svg')",
+        'footer-desktop-pattern': "url('./images/bg-pattern-footer-desktop.svg')",
       }
     },
   },
