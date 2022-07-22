@@ -13,13 +13,24 @@
 
 <body class="font-body">
     <header class="min-h-20 py-6 relative">
-        <div class="container sm:max-w-3xl">
+        <div class="container sm:max-w-3xl xl:max-w-[1110px]">
             <div class="flex items-center justify-between">
                 <div>
                     <a href="#"><img src="./images/logo.svg" alt="logo" /></a>
                 </div>
 
-                <button data-btn-open>
+                <div class="hidden xl:flex xl:justify-end xl:items-center xl:min-w-[450px]">
+                    <ul class="flex gap-x-7 uppercase text-darkGrayishViolet font-bold tracking-widest text-xs">
+                        <li><a href="#" class="hover:text-veryDarkViolet">How we work</a></li>
+                        <li><a href="#" class="hover:text-veryDarkViolet">Blog</a></li>
+                        <li><a href="#" class="hover:text-veryDarkViolet">Account</a></li>
+                        <li><a href="#"
+                                class="outline outline-2 py-3 px-6 transition ease-in-out text-veryDarkViolet hover:bg-veryDarkViolet hover:text-white">View
+                                plans</a></li>
+                    </ul>
+                </div>
+
+                <button data-btn-open class="xl:hidden">
                     <img src="./images/icon-hamburger.svg" alt="icon-hamburger" />
                 </button>
                 <button data-btn-close class="hidden">
@@ -47,9 +58,9 @@
             </div>
             <div class="relative">
                 <div class="pattern left-mobile-pattern"></div>
-                <div class="container py-20 sm:max-w-3xl">
-                    <div class="flex flex-col items-center text-center">
-                        <span class="line-top bg-white hidden"></span>
+                <div class="container py-20 sm:max-w-3xl xl:max-w-[1110px] xl:flex">
+                    <div class="flex flex-col items-center text-center xl:text-left xl:items-start">
+                        <span class="line-top bg-white hidden xl:block"></span>
                         <h1 class="font-title text-[2.75rem] leading-[3rem] z-10">Humanizing your insurance.</h1>
                         <p class="mt-5 text-base leading-6 tracking-wider">Get your life insurance coverage easier and
                             faster.
@@ -65,7 +76,7 @@
             </div>
         </section>
 
-        <section class="container pt-[140px]">
+        <section class="container pt-[140px] xl:max-w-[1110px]">
             <div class="flex flex-col items-center">
                 <span class="line-top bg-darkGrayishViolet"></span>
                 <h2 class="font-title text-[2.75rem] leading-[3rem]">We're different</h2>
@@ -93,7 +104,7 @@
             </div>
         </section>
 
-        <section class="container py-[140px] sm:max-w-3xl">
+        <section class="container py-[140px] sm:max-w-3xl xl:max-w-[1110px]">
             <div
                 class="bg-darkViolet text-white flex flex-col items-center text-center py-[70px] px-5 relative sm:py-24">
                 <div class="pattern how-we-work-pattern"></div>
@@ -106,7 +117,7 @@
     <footer class="bg-veryLightGray relative">
         <div class="pattern footer-mobile-pattern sm:hidden"></div>
         <div class="pattern footer-desktop-pattern hidden sm:block"></div>
-        <div class="container py-20">
+        <div class="container py-20 xl:max-w-[1110px]">
             <div class="flex flex-col items-center justify-between">
                 <img class="my-0 mx-auto z-10" src="./images/logo.svg" alt="logo" />
                 <ul class="mt-7 flex flex-row items-center space-x-4 z-10">

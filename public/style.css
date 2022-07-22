@@ -671,6 +671,18 @@ video {
   width: 100%;
 }
 
+.w-max{
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.max-w-max{
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+
 .list-none{
   list-style-type: none;
 }
@@ -695,6 +707,14 @@ video {
   align-items: center;
 }
 
+.items-stretch{
+  align-items: stretch;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
 .justify-between{
   justify-content: space-between;
 }
@@ -705,6 +725,29 @@ video {
 
 .gap-10{
   gap: 2.5rem;
+}
+
+.gap-4{
+  gap: 1rem;
+}
+
+.gap-2{
+  gap: 0.5rem;
+}
+
+.gap-x-8{
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+
+.gap-x-7{
+  -moz-column-gap: 1.75rem;
+       column-gap: 1.75rem;
+}
+
+.gap-x-6{
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
 }
 
 .space-y-2 > :not([hidden]) ~ :not([hidden]){
@@ -768,6 +811,31 @@ video {
   padding-right: 1.25rem;
 }
 
+.py-3{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.px-6{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-2{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .pt-\[140px\]{
   padding-top: 140px;
 }
@@ -807,8 +875,17 @@ video {
   font-size: 2.35rem;
 }
 
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .font-bold{
   font-weight: 700;
+}
+
+.font-extrabold{
+  font-weight: 800;
 }
 
 .uppercase{
@@ -851,6 +928,31 @@ video {
 .text-darkGrayishViolet{
   --tw-text-opacity: 1;
   color: hsl(273 4% 51% / var(--tw-text-opacity));
+}
+
+.text-veryDarkViolet{
+  --tw-text-opacity: 1;
+  color: hsl(270 9% 17% / var(--tw-text-opacity));
+}
+
+.outline{
+  outline-style: solid;
+}
+
+.outline-2{
+  outline-width: 2px;
+}
+
+.transition{
+  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.ease-in-out{
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .show{
@@ -991,13 +1093,47 @@ video {
   color: hsl(256 26% 20% / var(--tw-text-opacity));
 }
 
+.hover\:bg-darkViolet:hover{
+  --tw-bg-opacity: 1;
+  background-color: hsl(256 26% 20% / var(--tw-bg-opacity));
+}
+
+.hover\:bg-black:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-veryDarkViolet:hover{
+  --tw-bg-opacity: 1;
+  background-color: hsl(270 9% 17% / var(--tw-bg-opacity));
+}
+
+.hover\:bg-darkGrayishViolet:hover{
+  --tw-bg-opacity: 1;
+  background-color: hsl(273 4% 51% / var(--tw-bg-opacity));
+}
+
 .hover\:fill-black:hover{
   fill: #000;
+}
+
+.hover\:font-bold:hover{
+  font-weight: 700;
 }
 
 .hover\:text-veryDarkViolet:hover{
   --tw-text-opacity: 1;
   color: hsl(270 9% 17% / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-black:hover{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover{
@@ -1031,5 +1167,91 @@ video {
 
   .md\:hidden{
     display: none;
+  }
+}
+
+@media (min-width: 976px){
+  .lg\:mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1440px){
+  .xl\:mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .xl\:block{
+    display: block;
+  }
+
+  .xl\:flex{
+    display: flex;
+  }
+
+  .xl\:hidden{
+    display: none;
+  }
+
+  .xl\:w-\[\]{
+    width: ;
+  }
+
+  .xl\:w-\[1100px\]{
+    width: 1100px;
+  }
+
+  .xl\:w-\[1110px\]{
+    width: 1110px;
+  }
+
+  .xl\:min-w-\[\]{
+    min-width: ;
+  }
+
+  .xl\:min-w-\[450px\]{
+    min-width: 450px;
+  }
+
+  .xl\:max-w-\[1110px\]{
+    max-width: 1110px;
+  }
+
+  .xl\:flex-row{
+    flex-direction: row;
+  }
+
+  .xl\:flex-col{
+    flex-direction: column;
+  }
+
+  .xl\:items-start{
+    align-items: flex-start;
+  }
+
+  .xl\:items-end{
+    align-items: flex-end;
+  }
+
+  .xl\:items-center{
+    align-items: center;
+  }
+
+  .xl\:justify-end{
+    justify-content: flex-end;
+  }
+
+  .xl\:justify-between{
+    justify-content: space-between;
+  }
+
+  .xl\:text-left{
+    text-align: left;
+  }
+
+  .xl\:align-baseline{
+    vertical-align: baseline;
   }
 }
