@@ -19,7 +19,7 @@
                     <a href="#"><img src="./images/logo.svg" alt="logo" /></a>
                 </div>
 
-                <div class="hidden xl:flex xl:justify-end xl:items-center xl:min-w-[450px]">
+                <div class="hidden md:flex md:justify-end md:items-center md:min-w-[450px]">
                     <ul class="flex gap-x-7 uppercase text-darkGrayishViolet font-bold tracking-widest text-xs">
                         <li><a href="#" class="hover:text-veryDarkViolet">How we work</a></li>
                         <li><a href="#" class="hover:text-veryDarkViolet">Blog</a></li>
@@ -30,7 +30,7 @@
                     </ul>
                 </div>
 
-                <button data-btn-open class="xl:hidden">
+                <button data-btn-open class="md:hidden">
                     <img src="./images/icon-hamburger.svg" alt="icon-hamburger" />
                 </button>
                 <button data-btn-close class="hidden">
@@ -57,22 +57,27 @@
                 <img class="w-full" src="./images/image-intro-mobile.jpg" alt="intro-mobile" />
             </div>
             <div class="relative">
-                <div class="pattern left-mobile-pattern"></div>
-                <div class="container py-20 sm:max-w-3xl xl:max-w-[1110px] xl:flex">
-                    <div class="flex flex-col items-center text-center xl:text-left xl:items-start">
-                        <span class="line-top bg-white hidden xl:block"></span>
-                        <h1 class="font-title text-[2.75rem] leading-[3rem] z-10">Humanizing your insurance.</h1>
-                        <p class="mt-5 text-base leading-6 tracking-wider">Get your life insurance coverage easier and
-                            faster.
-                            We blend our expertise and technology to help
-                            you find the plan that's right for you. Ensure you and your loved ones are protected.</p>
+                <div class="pattern left-mobile-pattern md:hidden"></div>
+                <div class="pattern intro-right-desktop-pattern hidden md:block"></div>
+                <div class="container py-20 sm:max-w-3xl xl:max-w-[1110px] md:flex md:flex-row md:justify-end">
+                    <div class="flex flex-col items-center text-center md:text-left md:items-start md:grow">
+                        <span class="line-top bg-white hidden md:block"></span>
+                        <h1
+                            class="font-title text-[2.75rem] leading-[3rem] z-10 md:w-[320px] xl:w-[500px] xl:text-[4.15rem] xl:leading-[4.5rem]">
+                            Humanizing your insurance.</h1>
+                        <p class="mt-5 text-base leading-6 tracking-wider md:w-[350px] xl:w-[500px]">Get your life
+                            insurance coverage easier and faster. We blend our expertise and technology to help you find
+                            the
+                            plan that's right for you. Ensure you and your loved ones are protected.</p>
                         <a href="#" class="btn btn--active mt-9 text-sm tracking-widest z-10">View plans</a>
                     </div>
-                    <div class="hidden md:inline-block">
-                        <img src="./images/image-intro-desktop.jpg" alt="intro-desktop" />
+                    <div class="hidden md:inline-block z-0 absolute md:grow">
+                        <img class="md:w-[340px] xl:w-[540px]" src="./images/image-intro-desktop.jpg"
+                            alt="intro-desktop" />
                     </div>
                 </div>
-                <div class="pattern right-mobile-pattern"></div>
+                <div class="pattern right-mobile-pattern md:hidden"></div>
+                <div class="pattern intro-left-desktop-pattern hidden md:block"></div>
             </div>
         </section>
 

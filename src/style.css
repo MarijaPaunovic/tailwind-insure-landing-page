@@ -63,7 +63,6 @@
     after:h-[315px]
     after:right-0
     after:top-0
-    
 }
 .footer-mobile-pattern {
     @apply
@@ -80,6 +79,23 @@
     after:h-[230px]
     after:left-0
     after:top-0
+}
+.intro-right-desktop-pattern {
+    @apply
+    after:bg-intro-right-desktop-pattern
+    after:w-[300px]
+    after:h-full
+    after:right-0
+    after:top-[-150px]
+    after:z-10
+}
+.intro-left-desktop-pattern {
+    @apply
+    after:bg-intro-left-desktop-pattern
+    after:w-[200px]
+    after:h-full
+    after:left-0
+    after:top-[350px]
 }
 /* LINES */
 .line-top {
