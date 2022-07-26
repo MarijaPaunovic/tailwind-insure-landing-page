@@ -38,6 +38,7 @@ module.exports = {
         'footer-desktop-pattern': "url('./images/bg-pattern-footer-desktop.svg')",
         'intro-right-desktop-pattern': "url('./images/bg-pattern-intro-right-desktop.svg')",
         'intro-left-desktop-pattern': "url('./images/bg-pattern-intro-left-desktop.svg')",
+        'how-we-work-desktop-pattern': "url('./images/bg-pattern-how-we-work-desktop.svg')",
       }
     },
   },

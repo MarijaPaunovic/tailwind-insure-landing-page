@@ -643,8 +643,8 @@ video {
   margin-top: 2.25rem;
 }
 
-.mt-20{
-  margin-top: 5rem;
+.mt-\[100px\]{
+  margin-top: 100px;
 }
 
 .mt-10{
@@ -998,10 +998,10 @@ video {
 
 .intro-right-desktop-pattern::after{
   right: 0px;
-  top: -150px;
+  top: -55px;
   z-index: 10;
   height: 100%;
-  width: 300px;
+  width: 370px;
   content: var(--tw-content);
   background-image: url('./images/bg-pattern-intro-right-desktop.svg');
 }
@@ -1013,6 +1013,15 @@ video {
   width: 200px;
   content: var(--tw-content);
   background-image: url('./images/bg-pattern-intro-left-desktop.svg');
+}
+
+.how-we-work-desktop-pattern::after{
+  right: 0px;
+  top: 0px;
+  height: 100%;
+  width: 50%;
+  content: var(--tw-content);
+  background-image: url('./images/bg-pattern-how-we-work-desktop.svg');
 }
 
 /* LINES */
@@ -1058,7 +1067,7 @@ video {
 .btn--active:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  font-weight: 500;
+  font-weight: 400;
   --tw-text-opacity: 1;
   color: hsl(256 26% 20% / var(--tw-text-opacity));
 }
@@ -1127,12 +1136,12 @@ video {
     width: 320px;
   }
 
-  .md\:w-\[350px\]{
-    width: 350px;
+  .md\:w-\[300px\]{
+    width: 300px;
   }
 
-  .md\:w-\[340px\]{
-    width: 340px;
+  .md\:w-\[380px\]{
+    width: 380px;
   }
 
   .md\:min-w-\[450px\]{
@@ -1162,26 +1171,102 @@ video {
   .md\:text-left{
     text-align: left;
   }
+
+  .md\:text-sm{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
 }
 
 @media (min-width: 1440px){
+  .xl\:mx-0{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .xl\:mt-6{
+    margin-top: 1.5rem;
+  }
+
+  .xl\:mr-\[267px\]{
+    margin-right: 267px;
+  }
+
+  .xl\:block{
+    display: block;
+  }
+
+  .xl\:hidden{
+    display: none;
+  }
+
   .xl\:w-\[500px\]{
     width: 500px;
   }
 
-  .xl\:w-\[540px\]{
-    width: 540px;
+  .xl\:w-\[530px\]{
+    width: 530px;
+  }
+
+  .xl\:w-\[475px\]{
+    width: 475px;
   }
 
   .xl\:max-w-\[1110px\]{
     max-width: 1110px;
   }
 
+  .xl\:grid-flow-col{
+    grid-auto-flow: column;
+  }
+
+  .xl\:grid-cols-none{
+    grid-template-columns: none;
+  }
+
+  .xl\:flex-row{
+    flex-direction: row;
+  }
+
+  .xl\:items-start{
+    align-items: flex-start;
+  }
+
+  .xl\:justify-between{
+    justify-content: space-between;
+  }
+
+  .xl\:px-20{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .xl\:pt-\[305px\]{
+    padding-top: 305px;
+  }
+
+  .xl\:text-left{
+    text-align: left;
+  }
+
   .xl\:text-\[4\.15rem\]{
     font-size: 4.15rem;
   }
 
+  .xl\:text-sm{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .xl\:text-\[3\.4rem\]{
+    font-size: 3.4rem;
+  }
+
   .xl\:leading-\[4\.5rem\]{
     line-height: 4.5rem;
+  }
+
+  .xl\:leading-\[3\.5rem\]{
+    line-height: 3.5rem;
   }
 }

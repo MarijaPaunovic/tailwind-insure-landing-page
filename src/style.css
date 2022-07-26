@@ -83,10 +83,10 @@
 .intro-right-desktop-pattern {
     @apply
     after:bg-intro-right-desktop-pattern
-    after:w-[300px]
+    after:w-[370px]
     after:h-full
     after:right-0
-    after:top-[-150px]
+    after:top-[-55px]
     after:z-10
 }
 .intro-left-desktop-pattern {
@@ -96,6 +96,14 @@
     after:h-full
     after:left-0
     after:top-[350px]
+}
+.how-we-work-desktop-pattern {
+    @apply
+    after:bg-how-we-work-desktop-pattern
+    after:w-1/2
+    after:h-full
+    after:right-0
+    after:top-0
 }
 /* LINES */
 .line-top {
@@ -125,7 +133,7 @@
     outline 
     outline-2
     outline-white
-    hover:font-medium
+    hover:font-normal
     hover:bg-white
     hover:text-darkViolet
 }
