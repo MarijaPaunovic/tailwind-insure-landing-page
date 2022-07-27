@@ -1179,6 +1179,10 @@ video {
 }
 
 @media (min-width: 1440px){
+  .xl\:m-0{
+    margin: 0px;
+  }
+
   .xl\:mx-0{
     margin-left: 0px;
     margin-right: 0px;
@@ -1192,8 +1196,20 @@ video {
     margin-right: 267px;
   }
 
+  .xl\:mt-0{
+    margin-top: 0px;
+  }
+
+  .xl\:mb-12{
+    margin-bottom: 3rem;
+  }
+
   .xl\:block{
     display: block;
+  }
+
+  .xl\:flex{
+    display: flex;
   }
 
   .xl\:hidden{
@@ -1228,6 +1244,10 @@ video {
     flex-direction: row;
   }
 
+  .xl\:place-items-start{
+    place-items: start;
+  }
+
   .xl\:items-start{
     align-items: flex-start;
   }
@@ -1236,9 +1256,22 @@ video {
     justify-content: space-between;
   }
 
+  .xl\:gap-32{
+    gap: 8rem;
+  }
+
+  .xl\:gap-36{
+    gap: 9rem;
+  }
+
   .xl\:px-20{
     padding-left: 5rem;
     padding-right: 5rem;
+  }
+
+  .xl\:py-16{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 
   .xl\:pt-\[305px\]{
