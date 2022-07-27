@@ -18,3 +18,4 @@ In this challenge I am using TailwindCSS.
 - Grid
 
 ### Preview work
+https://marijapaunovic-insure-landing-page.netlify.app/
